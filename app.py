@@ -18,7 +18,7 @@ wikipedia = WikipediaQueryRun(api_wrapper=api_wrapper_wiki)
 
 search = DuckDuckGoSearchRun(name='Search')
 
-### streamlit sidebar for api key
+#### streamlit sidebar for api key
 st.sidebar.title('Settings')
 api_key = st.sidebar.text_input('Enter your Groq API key:', type='password')
 
